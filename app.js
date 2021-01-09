@@ -5,4 +5,4 @@ http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
   res.write("The date and time are: " + dt.myDateTime());
   res.end();
-}).listen(5000); 
+}).listen(process.env.PORT || 3000); 
