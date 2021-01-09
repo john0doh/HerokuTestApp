@@ -1,12 +1,27 @@
 {
-    "name": "heroku-test-app",
-    "version": "0.0.1",
-    "engines": {
-      "node": "12.x"
-    },
-    "main": "app.js",
-    "scripts": {
-      "start": "node app.js"
-    }
-  }
-  
+  "name": "heroku-test-app",
+  "version": "0.0.1",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "description": "Simple nodeJS app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john0doh/HerokuTestApp.git"
+  },
+  "keywords": [
+    "example",
+    "nodeJS",
+    "heroku"
+  ],
+  "author": "john0doh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john0doh/HerokuTestApp/issues"
+  },
+  "homepage": "https://github.com/john0doh/HerokuTestApp#readme"
+}
